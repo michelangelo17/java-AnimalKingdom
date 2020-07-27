@@ -1,0 +1,23 @@
+package animalSearch;
+
+public class Mammal extends Animal {
+
+  public Mammal(String name, int yearDisc) {
+    super(name, yearDisc);
+  }
+
+  @Override
+  public String move() {
+    return "walk";
+  }
+
+  @Override
+  public String breathe() {
+    return "lungs";
+  }
+
+  @Override
+  public String reproduce() {
+    return "live births";
+  }
+}
